@@ -1,4 +1,4 @@
-package hello.servket.basic.response;
+package hello.servlet.basic.response;
 
 import org.springframework.http.HttpHeaders;
 

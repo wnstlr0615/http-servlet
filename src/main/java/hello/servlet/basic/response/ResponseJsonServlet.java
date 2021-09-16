@@ -1,7 +1,7 @@
-package hello.servket.basic.response;
+package hello.servlet.basic.response;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import hello.servket.basic.HelloData;
+import hello.servlet.basic.HelloData;
 import org.springframework.http.MediaType;
 
 import javax.servlet.ServletException;

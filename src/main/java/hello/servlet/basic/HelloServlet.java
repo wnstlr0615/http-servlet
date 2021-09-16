@@ -1,4 +1,4 @@
-package hello.servket.basic;
+package hello.servlet.basic;
 
 import org.springframework.http.MediaType;
 
@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 
 @WebServlet(name="helloServlet", urlPatterns = "/hello")
 public class HelloServlet extends HttpServlet {

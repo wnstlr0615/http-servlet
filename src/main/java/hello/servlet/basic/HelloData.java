@@ -1,4 +1,4 @@
-package hello.servket.basic;
+package hello.servlet.basic;
 
 import lombok.*;
 

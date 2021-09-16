@@ -1,4 +1,4 @@
-package hello.servket.basic.response;
+package hello.servlet.basic.response;
 
 import org.springframework.http.MediaType;
 
@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.charset.StandardCharsets;
 
 @WebServlet(name = "responseHtmlServlet", urlPatterns = "/response-html")
 public class ResponseHtmlServlet  extends HttpServlet {
